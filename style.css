@@ -1,0 +1,58 @@
+body{
+    margin: 0px;
+}
+.nav{
+    background-color: rgba(22, 46, 68, 0.685);
+    height: 50px;
+    width: 100%;
+}
+.button1{
+    margin-left: 250px;
+    margin-top: 15px;
+    position: absolute;
+}
+.button2{
+    margin-left: 450px;
+    margin-top: 15px;
+    position: absolute;
+}
+.button3{
+    margin-left: 600px;
+    margin-top: 15px;
+    position: absolute;
+}
+.button4{
+    margin-left: 800px;
+    margin-top: 15px;
+    position: absolute;
+}
+.games{
+    margin-top: 25px;
+}
+.dropdown_content{
+    color: blue;
+    display: none;
+    background-color: pink;
+}
+.button2:hover > .dropdown_content{
+    display: initial;
+    background-color: pink;
+}
+.dropdown_content2{
+    color: red;
+    display: none;
+    background-color: pink;
+    border: 1px solid;
+    padding: 10px;
+}
+.games:hover > .dropdown_content2{
+    position: absolute;
+    left: 100px;
+    display: initial;
+}
+.button3:hover > .dropdown_content{
+    display: initial;
+}
+.button4:hover > .dropdown_content{
+    display: initial;
+}
